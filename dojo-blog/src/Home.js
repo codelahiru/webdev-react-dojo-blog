@@ -18,6 +18,7 @@ const Home = () => {
     ]);
 
     const [name, setName] = useState('Mario');
+    
     const handleDelete = (id) => {
         const newBlogs = blogs.filter(blog => blog.id !== id);
         setBlogs(newBlogs);
