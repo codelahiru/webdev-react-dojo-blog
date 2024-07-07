@@ -23,4 +23,4 @@ yarn-debug.log*
 yarn-error.log*
 
 # to test
-/public/robots.txt
+dojo-blog/public/robots.txt
